@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="heading">
+                <h1 id="title" class="title">Today Weather</h1>
+            </div>
+            <div class="informationInput" id="informationInput">
+                <input type="text" name="city" id="city" placeholder="Type your city name...">
+                <button type="button" class="getWeather" id="getWeather">Get Weather</button>
+            </div>
+        </div>
+        <div class="weather hidden" id="weather">
+        
+            <div class="weatherInfo" id="weatherInfo">
+                <div class="cityName" id="cityName"></div>
+                <div class="temperature" id="temperature"></div>
+                <div class="rain" id="rain"></div>
+                <div class="clouds" id="clouds"></div>
+                <div class="weatherDescription" id="weatherDescription"></div>
+                <div class="sunsight" id="sunsight"></div>
+                <div class="wind" id="wind"></div>
+                <div class="humidity" id="humidity"></div>
+                <div class="timezone" id="timezone"></div>
+            </div>
+            <div class="errorMessage" id="errorMessage"></div>
+        </div>
+    </div>
+</body>
+<script src="./eventHandler.js" defer type="module">
+
+</script>
+
+</html>
