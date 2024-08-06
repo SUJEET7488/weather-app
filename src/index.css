@@ -20,7 +20,7 @@
     text-align: center;
     margin: auto;
     padding: 10px;
-    background-image: url('./pictures/weather_new.jpg');
+    background-image: url('../pictures/weather_new.jpg');
 }
 
 .heading {
@@ -52,7 +52,7 @@
     border-radius: 5px;
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 20px;
     padding: 2px;
     margin: auto;
 }
@@ -84,6 +84,7 @@
     height: auto;
     gap: 10px;
     padding: 5px;
+    background-color:rgba(25,84,96,0.4);
     border: 1px solid #000000;
     border-radius: 5px;
     background-position: top;
@@ -105,7 +106,7 @@ img{
     align-items:space-around;
     gap: 15px;
     padding: 5px;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
 }
 
